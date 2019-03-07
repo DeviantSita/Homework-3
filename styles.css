@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    }
+
+body {font-family: 'Times New Roman', Times, serif; 
+        text-align: center;
+        font-size:12px;
+        width: 900px;
+    }
+
+/* Organization/Box Headers */
+h2 {
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+/* Boxes */
+div {
+    width: 40%;
+    margin: auto;
+    border: 3px solid green;
+}
+
+/* Content inside div boxes */
+    p {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    /* Bulleted points */
+    ul {
+        margin-top: 0;
+        font-size: 14px;
+        text-align: left;
+    }
